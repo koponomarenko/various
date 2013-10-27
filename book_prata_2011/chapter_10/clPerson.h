@@ -1,0 +1,18 @@
+#pragma once
+
+#include <string>
+
+class clPerson
+{
+	static const int LIMIT = 25;
+	std::string lname; // Person’s last name
+	char fname[LIMIT]; // Person’s first name
+
+public:
+	clPerson(); // #1
+	clPerson(const std::string & ln, const char * fn = "Heyyou"); // #2
+
+	// the following methods display lname and fname
+	void Show() const; // firstname lastname format
+	void FormalShow() const; // lastname, firstname format
+};

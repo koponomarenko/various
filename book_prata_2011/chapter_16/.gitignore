@@ -1,0 +1,10 @@
+# ignore everything in the directory
+/*
+
+# except: *.cpp, *.h, README, .gitignore
+!*.cpp
+!*.h
+!README
+!.gitignore
+
+!*.txt
