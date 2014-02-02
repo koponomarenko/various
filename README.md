@@ -14,6 +14,7 @@ various
         vc10 — I arrange project files depending on the IDE
       bin — Compiled exe goes here
       build — The compiler's build files
+      test — All test code files
       doc — Documentation of any kind
       README
       INSTALL
