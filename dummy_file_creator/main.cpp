@@ -18,9 +18,8 @@
 int main(int argc, char *argv[]) {
     try {
         if (argc != 4) {
-            std::cout << argc << std::endl;
-            for (int i = 0; i < argc; ++i)
-                std::cout << argv[i] << std::endl;
+			std::cout << "Use with parameters: (1)output_file (2)size (3)units" << std::endl;
+			std::cout << "units: KB MB GB" << std::endl;
             throw std::string("Number of input arguments is not equal \"3\".");
         }
         
