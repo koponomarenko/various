@@ -4,9 +4,9 @@
 week_hours = 40
 over_rate = 1.5
 
-hours = raw_input("Enter Hours:")
+hours = raw_input("Enter Hours: ")
 hours = float(hours)
-rate = raw_input("Enter rate:")
+rate = raw_input("Enter rate: ")
 rate = float(rate)
 
 
